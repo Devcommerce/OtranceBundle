@@ -1,0 +1,40 @@
+{
+    "name" : "msorre/OtranceBundle",
+    "description" : "Provides support for oTranCe in Symfony2 applications.",
+    "homepage": "",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Mario Sorrentino",
+        "email" : "m.sorrentino78@gmail.com",
+        "role": "Creator"
+    }],
+    "keywords" : [
+        "bundle", "symfony", "doctrine", "entity", "otrance", "translation"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.4.0",
+        "symfony/symfony": "~2.6|~3.0",
+        "doctrine/orm": "~2.2"
+    },
+    "require-dev": {
+
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Msorre\\OtranceBundle" : ""
+        }
+    },
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "master"
+        }
+    }
+}
+
+
+

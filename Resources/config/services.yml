@@ -1,0 +1,4 @@
+services:
+#    msorre_otrance.example:
+#        class: msorre\OtranceBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
